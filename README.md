@@ -60,5 +60,6 @@ Security, Efficiency, and User Experience
 Security: Ensure secure connections to the MySQL database. Implement proper authentication and authorization mechanisms.
 Efficiency: Optimize data fetching and processing to ensure the dashboard is responsive. Implement caching strategies to reduce load times.
 User Experience: Design the dashboard to be intuitive and easy to use. Provide clear instructions and tooltips to guide users through different functionalities.
+
 Conclusion
 This project provides a comprehensive solution for extracting, processing, and visualizing PhonePe Pulse data. The interactive dashboard created with Streamlit and Plotly offers a user-friendly interface for exploring various metrics and gaining valuable insights from the data.
