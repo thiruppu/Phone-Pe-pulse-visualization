@@ -19,6 +19,7 @@ Extract data from the cloned repository and process it using Python and Pandas:
 Load the data from the files.
 Combine data from multiple files if necessary.
 Clean the data by handling missing values, ensuring data consistency, and transforming it into a suitable format for analysis.
+
 3. Insert Data into MySQL Database
 Set up a MySQL database and create a table structure that fits the data schema. Insert the cleaned and transformed data into the MySQL database for efficient storage and retrieval.
 
@@ -61,5 +62,5 @@ Security: Ensure secure connections to the MySQL database. Implement proper auth
 Efficiency: Optimize data fetching and processing to ensure the dashboard is responsive. Implement caching strategies to reduce load times.
 User Experience: Design the dashboard to be intuitive and easy to use. Provide clear instructions and tooltips to guide users through different functionalities.
 
-Conclusion
+Conclusion :
 This project provides a comprehensive solution for extracting, processing, and visualizing PhonePe Pulse data. The interactive dashboard created with Streamlit and Plotly offers a user-friendly interface for exploring various metrics and gaining valuable insights from the data.
