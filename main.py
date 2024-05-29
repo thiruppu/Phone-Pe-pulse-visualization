@@ -357,8 +357,8 @@ def donut_top_districts(years,quarters):
 
 #m_i_path_sql_df_count_ten = map_insurance_count_dataframe
 st.set_page_config(layout="wide")
-st.markdown('<h1 style="color: lime;">PhonePe Amounts Transactions 2018-2023 </h1>', unsafe_allow_html=True)
-
+st.markdown('<h1 style="color: lime;">PhonePe pulse data visualization 2018-2023 </h1>', unsafe_allow_html=True)
+st.header("Aggregated data comparison")
 # Align selectboxes horizontally
 col1, col2, col3, col4, col5, col6 = st.columns(6)
 with col1:
@@ -628,7 +628,7 @@ with col10:
                                     st.dataframe(m_t_path_sql_df_count_ten)
 
 st.divider()
-st.markdown('<h2 style="color: lime;">Top Transactions data comparison</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="color: lime;">Top Transactions based data comparison</h2>', unsafe_allow_html=True)
 col17,col18=st.columns(2)
 
 
